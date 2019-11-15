@@ -21,7 +21,7 @@ defmodule ReverseXpath.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:poison, "~> 3.1"},
+      {:poison, "~> 4.0", override: true},
       {:json_to_xml, "~> 0.4.0"}
     ]
   end
